@@ -17,8 +17,10 @@
   *Role:* Business Analyst  
   Includes BRD, Use Case Diagram, Wireframe, SQL Queries
 
-- 🔹 [Use Case Sample](https://github.com/nhutphi203/UseCaseDiagram)  
-  Sample of basic Use Case UML and system breakdown
+- 🔹 [Use Case Diagram Sample](https://github.com/nhutphi203/UseCase-Diagram-Sample)  
+  *Role:* Use Case Designer  
+  Includes basic use case model, actors, system boundary for small system
+
 
 - 🔹 [E-Learning System UML Diagrams](https://github.com/nhutphi203/E-Learning-Web)  
   *Role:* UML Model Reviewer  
