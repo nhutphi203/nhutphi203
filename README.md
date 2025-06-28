@@ -28,6 +28,10 @@
 - 🔹 [BA Learning Course](https://github.com/nhutphi203/BA-Learning-Course)  
   *Role:* Content Curator & Reviewer  
   Curated foundational BA documents: BRD, SRS, Use Cases, Stakeholder Maps, UML Diagrams
+- 🔹 [CTU Course – Academic Documents](https://github.com/nhutphi203/CTU-Course)  
+  *Role:* Author & Document Organizer  
+  Contains coursework from CTU: business process analysis (CT460), UML diagrams, and system analysis reports.
+
 ---
 
 ## 📈 Stats
