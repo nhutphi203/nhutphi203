@@ -1,4 +1,24 @@
-## Hi there 👋
+# 👋 Hi, I'm Nhựt Phi
+🎯 Aspiring IT Business Analyst | 💡 Problem Solver | 📊 Data-Driven Thinker
+
+## 🔧 Tech & Tools
+- 📋 Business Tools: Figma, Lucidchart, Miro, Confluence, Jira
+- 📊 Data: SQL, Excel, Power BI
+- 🧪 API Testing: Postman
+- 💻 Some code: HTML, CSS, JavaScript, React
+
+## 📂 Featured Projects
+- 🔹 [Student Management System](https://github.com/nhutphi203/student-management)
+  - Role: Business Analyst
+  - Includes BRD, Use Case, Wireframe, SQL Queries
+- 🔹 [Use Case Sample](https://github.com/nhutphi203/UseCaseDiagram)
+
+## 📈 Stats
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=nhutphi203&show_icons=true&theme=tokyonight)
+
+## 🌐 Let's Connect
+[LinkedIn](https://www.linkedin.com/in/nh%E1%BB%B1t-phi-aa7645215/) | [Email](phinhut2003@gmail.com)
+
 
 <!--
 **nhutphi203/nhutphi203** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
