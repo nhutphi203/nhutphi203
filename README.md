@@ -18,9 +18,10 @@
 
 ## 🌐 Let's Connect
 [LinkedIn](https://www.linkedin.com/in/nh%E1%BB%B1t-phi-aa7645215/) | [Email](phinhut2003@gmail.com)
-![Tools](https://img.shields.io/badge/Tools-Figma%20%7C%20Jira%20%7C%20Postman-blue)
-![Role](https://img.shields.io/badge/Role-Business%20Analyst-green)
-![Language](https://img.shields.io/badge/Language-SQL-informational)
+![Role](https://img.shields.io/badge/Role-Business%20Analyst-purple)
+![Tools](https://img.shields.io/badge/Tools-Jira%20|%20Figma%20|%20Confluence-blue)
+![Database](https://img.shields.io/badge/Database-SQL%20|%20MySQL-informational)
+![API](https://img.shields.io/badge/API-Postman-orange)
 
 
 <!--
