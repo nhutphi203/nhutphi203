@@ -13,7 +13,7 @@
 
 ## 📂 Featured Projects
 
-- 🔹 [Student Management System](https://github.com/nhutphi203/student-management)  
+- 🔹 [Student Management System](https://github.com/nhutphi203/nienluan)  
   *Role:* Business Analyst  
   Includes BRD, Use Case Diagram, Wireframe, SQL Queries
 
