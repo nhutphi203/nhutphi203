@@ -24,6 +24,9 @@
   *Role:* UML Model Reviewer  
   Includes ERD, DFD Levels 0–2, Use Case, Class & Sequence Diagrams
 
+- 🔹 [BA Learning Course](https://github.com/nhutphi203/BA-Learning-Course)  
+  *Role:* Content Curator & Reviewer  
+  Curated foundational BA documents: BRD, SRS, Use Cases, Stakeholder Maps, UML Diagrams
 ---
 
 ## 📈 Stats
