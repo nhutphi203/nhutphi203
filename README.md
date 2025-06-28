@@ -19,7 +19,6 @@
 
 - 🔹 [Use Case Diagram Sample](https://github.com/nhutphi203/UseCase-Diagram-Sample)  
   *Role:* Use Case Designer
-  ![Use Case Thumbnail](https://raw.githubusercontent.com/nhutphi203/UseCaseDiagram/master/UseCase_Diagram.png)
   Includes basic use case model, actors, system boundary for small system
 
 - 🔹 [E-Learning System UML Diagrams](https://github.com/nhutphi203/E-Learning-Web)  
