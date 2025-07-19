@@ -1,0 +1,82 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f7f9fc;
+  color: #333;
+  scroll-behavior: smooth;
+}
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+h1, h2 {
+  color: #3F8CFF;
+}
+.btn-primary, .btn-secondary {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn-primary {
+  background: #3F8CFF;
+  color: white;
+}
+.btn-secondary {
+  border: 2px solid #3F8CFF;
+  color: #3F8CFF;
+}
+.avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.skills-grid div {
+  background: #e0f0ff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.project-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.project-card img {
+  width: 200px;
+  border-radius: 8px;
+}
+.timeline {
+  list-style: none;
+  padding: 0;
+}
+.timeline li {
+  margin: 10px 0;
+}
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+  color: #3F8CFF;
+  font-weight: 600;
+}
+footer {
+  background: #e9f3ff;
+  padding: 20px;
+}
+@media (max-width: 600px) {
+  .project-card {
+    flex-direction: column;
+  }
+}
