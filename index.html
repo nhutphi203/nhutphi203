@@ -2,121 +2,194 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nhựt Phi | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tran Phi Nhut | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    * {
+      margin: 0; padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: 'Poppins', sans-serif;
+    }
     body {
-      font-family: 'Inter', sans-serif;
-      background: #f9fafb;
-      color: #1f2937;
+      background: #f9f9f9;
+      color: #333;
       line-height: 1.6;
-      padding: 30px 20px;
     }
     header {
+      background: #007BFF;
+      color: #fff;
+      padding: 100px 20px;
       text-align: center;
-      margin-bottom: 40px;
     }
-    h1 {
-      font-size: 2.5em;
-      color: #111827;
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1.2rem; margin: 10px 0; }
+    nav {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      background: #fff;
+      padding: 10px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      z-index: 999;
     }
-    h2 {
-      font-size: 1.5em;
-      color: #2563eb;
-      margin-bottom: 10px;
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
     }
-    p, li {
-      font-size: 1rem;
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #007BFF;
+      font-weight: 500;
     }
     section {
-      max-width: 800px;
-      margin: 0 auto 40px;
-      padding-bottom: 20px;
-      border-bottom: 1px solid #e5e7eb;
+      padding: 80px 20px;
+      max-width: 1000px;
+      margin: auto;
     }
-    ul {
-      padding-left: 20px;
-      margin-top: 10px;
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #007BFF;
     }
-    .icon {
-      margin-right: 8px;
+    .skills, .projects, .timeline {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
     }
-    .highlight {
-      color: #1d4ed8;
-      font-weight: 600;
+    .skill, .project, .timeline-item {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
-    .contact a {
-      color: #2563eb;
-      text-decoration: none;
+    .project img {
+      width: 100%;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+    .contact {
+      text-align: center;
+    }
+    .social a {
+      margin: 0 10px;
+      color: #007BFF;
+      font-size: 24px;
     }
     footer {
       text-align: center;
       padding: 20px;
-      font-size: 0.9rem;
-      color: #6b7280;
+      background: #007BFF;
+      color: white;
     }
-    @media (max-width: 600px) {
-      h1 { font-size: 1.8em; }
-      h2 { font-size: 1.3em; }
+    .btn {
+      display: inline-block;
+      background: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 15px;
+      border-radius: 5px;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>👋 Hi, I'm Nhựt Phi</h1>
-    <p class="highlight">🎯 Aspiring IT Business Analyst | 💡 Low-Code Enthusiast | 📊 Data-Driven Thinker</p>
-  </header>
+<nav>
+  <ul>
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-  <section>
-    <h2>🚀 About Me</h2>
-    <p>
-      I'm a final-year student passionate about bridging the gap between business needs and technical solutions.
-      Currently exploring Low-Code platforms like <span class="highlight">OutSystems</span> to rapidly prototype and deliver impactful business applications.
-    </p>
-  </section>
+<header id="hero" data-aos="fade-in">
+  <h1>Tran Phi Nhut</h1>
+  <p>Business Analyst | OutSystems Developer</p>
+  <a href="your-cv.pdf" class="btn" download>Download CV</a>
+</header>
 
-  <section>
-    <h2>🔧 Tech & Tools</h2>
-    <ul>
-      <li><strong>🛠 Business & Collaboration:</strong> Figma, Lucidchart, Miro, Confluence, Jira</li>
-      <li><strong>📊 Data & Analysis:</strong> SQL, Excel, Power BI</li>
-      <li><strong>🔍 API & Testing:</strong> Postman, Swagger</li>
-      <li><strong>🌐 Web & Low-Code:</strong> HTML, CSS, JavaScript, React (basic)</li>
-      <li><strong>📚 Learning:</strong> OutSystems Platform, Agile Methodology</li>
-    </ul>
-  </section>
+<section id="about" data-aos="fade-up">
+  <h2>About Me</h2>
+  <p>Hi, I'm a tech enthusiast passionate about business analysis, low-code development, and building impactful digital solutions. Skilled in OutSystems, SQL, Excel, Figma, and process automation.</p>
+</section>
 
-  <section>
-    <h2>📂 Highlighted Projects</h2>
-    <ul>
-      <li><strong>🔹 Student Management System:</strong> Role: Business Analyst – BRD, Use Case Diagram, Wireframes, SQL Queries</li>
-      <li><strong>🔹 OutSystems Learning Log (Coming Soon):</strong> Role: Intern – Hands-on with OutSystems</li>
-      <li><strong>🔹 E-Learning System UML Diagrams:</strong> Role: UML Reviewer – ERD, DFDs, Use Case, Class & Sequence Diagrams</li>
-      <li><strong>🔹 BA Learning Course:</strong> Role: Content Curator – BRD, SRS, Stakeholder Maps, UML</li>
-    </ul>
-  </section>
+<section id="skills" data-aos="fade-up">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill">Business Analysis</div>
+    <div class="skill">OutSystems</div>
+    <div class="skill">SQL</div>
+    <div class="skill">Excel</div>
+    <div class="skill">Figma</div>
+    <div class="skill">HTML/CSS/JS</div>
+  </div>
+</section>
 
-  <section>
-    <h2>📈 GitHub Stats</h2>
-    <p>
-      <img src="https://github-readme-stats.vercel.app/api?username=nhutphi203&show_icons=true&theme=default" alt="GitHub Stats" width="100%">
-    </p>
-  </section>
+<section id="projects" data-aos="fade-up">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="project">
+      <img src="https://via.placeholder.com/300x150" alt="Project 1"/>
+      <h4>Student Management System</h4>
+      <p>Built a system to manage students, schedules, and grades using OutSystems and MySQL.</p>
+      <a href="https://github.com/yourname/project1" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/300x150" alt="Project 2"/>
+      <h4>Analyst Dashboard</h4>
+      <p>Designed KPI dashboard using Excel + automation scripts to monitor business performance.</p>
+      <a href="https://github.com/yourname/project2" target="_blank">View on GitHub</a>
+    </div>
+  </div>
+</section>
 
-  <section class="contact">
-    <h2>🌐 Let's Connect</h2>
-    <p>Email: <a href="mailto:phinhut2003@gmail.com">phinhut2003@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/nhutphi203/" target="_blank">linkedin.com/in/nhutphi203</a></p>
-    <p>GitHub: <a href="https://github.com/nhutphi203" target="_blank">github.com/nhutphi203</a></p>
-  </section>
+<section id="experience" data-aos="fade-up">
+  <h2>Experience & Education</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <h4>Business Analyst Intern - FPT Software</h4>
+      <p>2025</p>
+      <p>Worked on digital transformation solutions and OutSystems projects.</p>
+    </div>
+    <div class="timeline-item">
+      <h4>Student - FPT University</h4>
+      <p>2021 - 2025</p>
+      <p>Majoring in Information Systems with focus on business process and low-code development.</p>
+    </div>
+  </div>
+</section>
 
-  <footer>
-    &copy; 2025 Nhựt Phi | Built with ❤️ using GitHub Pages
-  </footer>
+<section id="contact" data-aos="fade-up">
+  <h2>Contact</h2>
+  <div class="contact">
+    <p>Let's connect!</p>
+    <div class="social">
+      <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/nhutphi203" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Tran Phi Nhut. All rights reserved.</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
