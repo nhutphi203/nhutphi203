@@ -3,193 +3,89 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tran Phi Nhut | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
-  <style>
-    * {
-      margin: 0; padding: 0;
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-      font-family: 'Poppins', sans-serif;
-    }
-    body {
-      background: #f9f9f9;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      background: #007BFF;
-      color: #fff;
-      padding: 100px 20px;
-      text-align: center;
-    }
-    header h1 { font-size: 2.5rem; }
-    header p { font-size: 1.2rem; margin: 10px 0; }
-    nav {
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%;
-      background: #fff;
-      padding: 10px 0;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      z-index: 999;
-    }
-    nav ul {
-      display: flex;
-      justify-content: center;
-      list-style: none;
-    }
-    nav ul li {
-      margin: 0 15px;
-    }
-    nav ul li a {
-      text-decoration: none;
-      color: #007BFF;
-      font-weight: 500;
-    }
-    section {
-      padding: 80px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    h2 {
-      text-align: center;
-      margin-bottom: 40px;
-      color: #007BFF;
-    }
-    .skills, .projects, .timeline {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-    }
-    .skill, .project, .timeline-item {
-      background: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    }
-    .project img {
-      width: 100%;
-      border-radius: 4px;
-      margin-bottom: 10px;
-    }
-    .contact {
-      text-align: center;
-    }
-    .social a {
-      margin: 0 10px;
-      color: #007BFF;
-      font-size: 24px;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #007BFF;
-      color: white;
-    }
-    .btn {
-      display: inline-block;
-      background: #007BFF;
-      color: white;
-      padding: 10px 20px;
-      margin-top: 15px;
-      border-radius: 5px;
-      text-decoration: none;
-    }
-  </style>
+  <title>Nhut Phi | Business Analyst Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
 </head>
 <body>
-
-<nav>
-  <ul>
-    <li><a href="#hero">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
-
-<header id="hero" data-aos="fade-in">
-  <h1>Tran Phi Nhut</h1>
-  <p>Business Analyst | OutSystems Developer</p>
-  <a href="your-cv.pdf" class="btn" download>Download CV</a>
-</header>
-
-<section id="about" data-aos="fade-up">
-  <h2>About Me</h2>
-  <p>Hi, I'm a tech enthusiast passionate about business analysis, low-code development, and building impactful digital solutions. Skilled in OutSystems, SQL, Excel, Figma, and process automation.</p>
-</section>
-
-<section id="skills" data-aos="fade-up">
-  <h2>Skills</h2>
-  <div class="skills">
-    <div class="skill">Business Analysis</div>
-    <div class="skill">OutSystems</div>
-    <div class="skill">SQL</div>
-    <div class="skill">Excel</div>
-    <div class="skill">Figma</div>
-    <div class="skill">HTML/CSS/JS</div>
-  </div>
-</section>
-
-<section id="projects" data-aos="fade-up">
-  <h2>Projects</h2>
-  <div class="projects">
-    <div class="project">
-      <img src="https://via.placeholder.com/300x150" alt="Project 1"/>
-      <h4>Student Management System</h4>
-      <p>Built a system to manage students, schedules, and grades using OutSystems and MySQL.</p>
-      <a href="https://github.com/yourname/project1" target="_blank">View on GitHub</a>
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <img src="assets/img/avatar.jpg" alt="Avatar" class="avatar" />
+      <h1>Tran Phi Nhut</h1>
+      <p>Tech & Business Analyst | OutSystems Developer</p>
+      <a href="#contact" class="btn-primary">Contact Me</a>
+      <a href="assets/CV_NhutPhi.pdf" class="btn-secondary" download>Download CV</a>
     </div>
-    <div class="project">
-      <img src="https://via.placeholder.com/300x150" alt="Project 2"/>
-      <h4>Analyst Dashboard</h4>
-      <p>Designed KPI dashboard using Excel + automation scripts to monitor business performance.</p>
-      <a href="https://github.com/yourname/project2" target="_blank">View on GitHub</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" data-aos="fade-up">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I’m a Business Analyst with a strong interest in low-code platforms like OutSystems, data analysis with SQL & Excel, and designing user-friendly solutions with Figma.</p>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="experience" data-aos="fade-up">
-  <h2>Experience & Education</h2>
-  <div class="timeline">
-    <div class="timeline-item">
-      <h4>Business Analyst Intern - FPT Software</h4>
-      <p>2025</p>
-      <p>Worked on digital transformation solutions and OutSystems projects.</p>
+  <!-- Skills -->
+  <section id="skills" data-aos="fade-up">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div>Business Analysis</div>
+        <div>SQL</div>
+        <div>OutSystems</div>
+        <div>Figma</div>
+        <div>Excel</div>
+        <div>Power BI</div>
+      </div>
     </div>
-    <div class="timeline-item">
-      <h4>Student - FPT University</h4>
-      <p>2021 - 2025</p>
-      <p>Majoring in Information Systems with focus on business process and low-code development.</p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" data-aos="fade-up">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <img src="assets/img/project1.png" alt="Project 1">
+        <div>
+          <h3>OutSystems Tutoring System</h3>
+          <p>A center management system built with OutSystems for managing students, teachers, and schedules.</p>
+          <a href="https://github.com/nhutphi203/outsystems-tutoring">GitHub</a>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="contact" data-aos="fade-up">
-  <h2>Contact</h2>
-  <div class="contact">
-    <p>Let's connect!</p>
-    <div class="social">
-      <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
-      <a href="https://github.com/nhutphi203" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+  <!-- Experience & Education -->
+  <section id="timeline" data-aos="fade-up">
+    <div class="container">
+      <h2>Experience & Education</h2>
+      <ul class="timeline">
+        <li><strong>2025</strong> - Internship at FPT Software (OutSystems Developer)</li>
+        <li><strong>2021–2025</strong> - FPT University, Information Systems</li>
+      </ul>
     </div>
-  </div>
-</section>
+  </section>
 
-<footer>
-  <p>&copy; 2025 Tran Phi Nhut. All rights reserved.</p>
-</footer>
+  <!-- Contact -->
+  <section id="contact" data-aos="fade-up">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="social-icons">
+        <a href="mailto:nhutphi203@gmail.com">📧 Email</a>
+        <a href="https://github.com/nhutphi203" target="_blank">💻 GitHub</a>
+        <a href="https://www.linkedin.com/in/nhutphi203/" target="_blank">💼 LinkedIn</a>
+      </div>
+    </div>
+  </section>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+  <footer>
+    <p>&copy; 2025 Tran Phi Nhut</p>
+  </footer>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
