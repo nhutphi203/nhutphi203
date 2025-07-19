@@ -5,6 +5,23 @@ body {
   color: #333;
   scroll-behavior: smooth;
 }
+.hero {
+  background: linear-gradient(135deg, #007BFF, #3F8CFF);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: url('https://www.transparenttextures.com/patterns/cubes.png');
+  opacity: 0.1;
+  z-index: 0;
+}
+
 section {
   padding: 60px 20px;
   text-align: center;
