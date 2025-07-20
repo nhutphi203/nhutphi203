@@ -20,26 +20,7 @@ body::before {
   pointer-events: none;
 }
 
-section:nth-of-type(odd) {
-  background-color: #fdfefe;
-}
 
-section:nth-of-type(even) {
-  background-color: #f4f8fb;
-}
-
-/* Tạo phong cách container nền trắng hiện đại */
-section {
-  padding: 80px 30px;
-  margin: 60px auto;
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 20px;
-  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.07);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  transition: all 0.3s ease;
-}
 
 /* Tiêu đề section với gradient nhẹ */
 section h2 {
