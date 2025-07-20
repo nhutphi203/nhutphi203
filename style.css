@@ -2,7 +2,8 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(to bottom right, #f4f8fb, #e6edf5);
+  background: linear-gradient(to right top, #f0f4ff, #fdfdff);
+
   color: #333;
   scroll-behavior: smooth;
   line-height: 1.6;
@@ -27,19 +28,50 @@ section:nth-of-type(even) {
   background-color: #f4f8fb;
 }
 
+/* Tạo phong cách container nền trắng hiện đại */
 section {
-  border-radius: 16px;
-  margin: 40px auto;
-  padding: 60px 20px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.04);
-  width: 96%;
-  max-width: 1200px;
-}
-section {
+  padding: 80px 30px;
+  margin: 60px auto;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   transition: all 0.3s ease;
 }
+
 section:hover {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
+}
+
+/* Tiêu đề section với gradient nhẹ */
+section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  color: #111;
+  background: linear-gradient(to right, #e2edff, #f4f9ff);
+  padding: 12px 20px;
+  border-radius: 14px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+/* Nâng cấp card */
+.highlight-card {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  transition: 0.3s;
+}
+
+.highlight-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -193,24 +225,7 @@ a:hover {
   line-height: 1.5;
 }
 
-.highlight-card {
-  background: #f0f6fb;
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.06);
-  text-align: left;
-  transition: 0.3s ease;
-}
 
-.highlight-card:hover {
-  background-color: #e2efff;
-  transform: translateY(-5px);
-}
-
-.highlight-card h4 {
-  margin-top: 0;
-  color: #0c73b8;
-}
 
 /* Project Section */
 .project-card {
