@@ -122,12 +122,40 @@ a:hover {
   transform: translateY(-5px);
 }
 
-/* OutSystems Highlights (custom grid) */
 .outsystems-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
-  margin-top: 30px;
+  margin-top: 20px;
+}
+
+.outsystems-grid details {
+  background: #f4f8fb;
+  border: 1px solid #dbe6f2;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.outsystems-grid details:hover {
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.outsystems-grid summary {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #1c2938;
+  cursor: pointer;
+}
+
+.outsystems-grid p {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #4a4a4a;
+  line-height: 1.5;
 }
 
 .highlight-card {
