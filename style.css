@@ -100,7 +100,6 @@ a:hover {
 .hero {
   background: linear-gradient(rgba(30, 58, 95, 0.7), rgba(12, 115, 184, 0.7)),
               url('z6821368866400_41b499d538f3e1c135b195a94478722b.jpg') center/cover no-repeat;
-  color: white;
   padding: 120px 20px 100px;
   text-align: center;
 }
